@@ -1,0 +1,97 @@
+{
+  "Nirmatrelvir": {
+    "alt_name": "Paxlovid",
+    "covalent": -10.2,
+    "confidence": 95,
+    "table": [
+      {
+        "score": "-6.0 to -7.5",
+        "confidence": "50–70%",
+        "interpretation": "Weak/moderate binder",
+        "highlighted": false
+      },
+      {
+        "score": "-7.5 to -9.0",
+        "confidence": "70–90%",
+        "interpretation": "Strong candidate",
+        "highlighted": false
+      },
+      {
+        "score": "-9.0 to -11.0",
+        "confidence": "90–98%",
+        "interpretation": "Very high confidence",
+        "highlighted": true
+      },
+      {
+        "score": "≤ -12.0",
+        "confidence": ">99%",
+        "interpretation": "Near-irreversible",
+        "highlighted": false
+      }
+    ],
+    "alt": "Remdesivir, Molnupiravir, Ensitrelvir (Xocova), Favipiravir, EIDD-2801, Camostat Mesylate, Nafamostat, Lopinavir/Ritonavir, Baricitinib, Sotrovimab, Bebtelovimab, Tixagevimab/cilgavimab, Fluvoxamine, Ivermectin, Nitazoxanide"
+  },
+  "Lyrica": {
+    "alt_name": "Pregabalin",
+    "covalent": -8.9,
+    "confidence": 87,
+    "table": [
+      {
+        "score": "-6.0 to -7.5",
+        "confidence": "50–70%",
+        "interpretation": "Weak/moderate binder",
+        "highlighted": false
+      },
+      {
+        "score": "-7.5 to -9.0",
+        "confidence": "70–90%",
+        "interpretation": "Strong candidate",
+        "highlighted": true
+      },
+      {
+        "score": "-9.0 to -11.0",
+        "confidence": "90–98%",
+        "interpretation": "Very high confidence",
+        "highlighted": false
+      },
+      {
+        "score": "≤ -12.0",
+        "confidence": ">99%",
+        "interpretation": "Near-irreversible",
+        "highlighted": false
+      }
+    ],
+    "alt": "Gabapentin, Carbamazepine, Valproate, Lamotrigine, Levetiracetam, Topiramate"
+  },
+  "Aspirin": {
+    "covalent": -9.2,
+    "confidence": 90,
+    "table": [
+      {
+        "score": "-6.0 to -7.5",
+        "confidence": "50–70%",
+        "interpretation": "Weak/moderate binder",
+        "highlighted": false
+      },
+      {
+        "score": "-7.5 to -9.0",
+        "confidence": "70–90%",
+        "interpretation": "Strong candidate",
+        "highlighted": false
+      },
+      {
+        "score": "-9.0 to -11.0",
+        "confidence": "90–98%",
+        "interpretation": "Very high confidence",
+        "highlighted": true
+      },
+      {
+        "score": "≤ -12.0",
+        "confidence": ">99%",
+        "interpretation": "Near-irreversible",
+        "highlighted": false
+      }
+    ],
+    "alt": "Ibuprofen, Naproxen, Diclofenac, Celecoxib (selective COX-2 inhibitor), Acetaminophen (though not an NSAID, commonly used for pain relief)Faspr"
+  }
+}

@@ -1,0 +1,55 @@
+
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.10.5",
+    "@chakra-ui/theme": "^3.4.7",
+    "@chakra-ui/theme-tools": "^2.2.7",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource-variable/playfair-display": "^5.2.5",
+    "@fontsource/poppins": "^5.2.5",
+    "@p5-wrapper/react": "^4.4.2",
+    "@tabler/icons-react": "^3.29.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "axios": "^1.8.4",
+    "debounce": "^2.2.0",
+    "framer-motion": "^12.0.6",
+    "lottie-react": "^2.4.1",
+    "p5": "^1.11.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
+    "react-router": "^7.1.3",
+    "sass": "^1.83.4",
+    "serve": "^14.2.4",
+    "tone": "^15.0.4",
+    "vite": "^6.2.5",
+    "zustand": "^5.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0"
+  },
+  "engines": {
+    "node": "22.x",
+    "npm": "11.x"
+  }
+}

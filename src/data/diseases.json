@@ -1,0 +1,505 @@
+[
+  {
+    "disease_name": "Covid",
+    "other_names": [
+      "COVID-19",
+      "Coronavirus Disease 2019",
+      "SARS-CoV-2 Infection"
+    ],
+    "disease_type": "viral",
+    "dna_sequence": "ATTAAAGGTTTATACCTTCCCAGGTAACAAACCAACCAACTTTCGATCTCTTGTAGATCT...",
+    "protein_sequence": "MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLP...",
+    "drugs_developed": ["Remdesivir", "Paxlovid", "Molnupiravir"]
+  },
+  {
+    "disease_name": "Influenza",
+    "other_names": [
+      "Flu",
+      "Seasonal Flu"
+    ],
+    "disease_type": "viral",
+    "dna_sequence": "AGCAAAAGCAGGTAGATTTCACCGAAGATTGTCAAGATCTGCCTGGCAAAGATGGCAAG...",
+    "protein_sequence": "MKTIIALSYIFCLALGQDLPGNDNSTATLCLGHHAVPNGTLVKTITDDQIEVTNATEL...",
+    "drugs_developed": ["Oseltamivir", "Zanamivir", "Baloxavir"]
+  },
+  {
+    "disease_name": "Diabetes",
+    "other_names": [
+      "Diabetes Mellitus",
+      "Type 1 Diabetes",
+      "Type 2 Diabetes"
+    ],
+    "disease_type": "hereditary",
+    "dna_sequence": "ATGGCCCTGTGGATGCGCCTCCTGCCCCTGCTGGCGCTGCTGGCCCTCTGGGGACCTGAC...",
+    "protein_sequence": "MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED...",
+    "drugs_developed": ["Insulin", "Metformin", "SGLT2 Inhibitors"]
+  },
+  {
+    "disease_name": "Alzheimer's Disease",
+    "other_names": [
+      "AD",
+      "Alzheimer Dementia"
+    ],
+    "disease_type": "hereditary",
+    "dna_sequence": "ATGGATGCAGAATTCCGACATCACAGTCGAGGTGCGTGAGGAGCTGGTGGCCGAGGTGCA...",
+    "protein_sequence": "MDARFRHHSEVREEVVAEVQ...",
+    "drugs_developed": ["Donepezil", "Memantine", "Aducanumab"]
+  },
+  {
+    "disease_name": "Parkinson's Disease",
+    "other_names": [
+      "PD",
+      "Parkinsonism"
+    ],
+    "disease_type": "hereditary",
+    "dna_sequence": "ATGGATGTGGTGGTGGTGGTGGTGGTGGTGGTGGTGGTGGTGGTGGTGGTGGTGGTGGT...",
+    "protein_sequence": "MDVVVVVVVVVVVVVVVVVV...",
+    "drugs_developed": ["Levodopa", "Carbidopa", "Pramipexole"]
+  },
+  {
+    "disease_name": "HIV",
+    "other_names": [
+      "Human Immunodeficiency Virus",
+      "AIDS"
+    ],
+    "disease_type": "viral",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Tenofovir", "Emtricitabine", "Dolutegravir"]
+  },
+  {
+    "disease_name": "Malaria",
+    "other_names": [
+      "Plasmodium Infection"
+    ],
+    "disease_type": "parasitic",
+    "dna_sequence": "ATGGAGGCTTCTAAGAAGATGAAGAAGAAGATGAAGAAGAAGATGAAGAAGAAGATGAAG...",
+    "protein_sequence": "MEASKKMKKKMKKKMKKKMK...",
+    "drugs_developed": ["Chloroquine", "Artemisinin", "Mefloquine"]
+  },
+  {
+    "disease_name": "Tuberculosis",
+    "other_names": [
+      "TB",
+      "Mycobacterium Tuberculosis Infection"
+    ],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGCGACCGCGACGCCGACGCCGACGCCGACGCCGACGCCGACGCCGACGCCGACGCCGA...",
+    "protein_sequence": "MRRRRRRRRRRRRRRRRRR...",
+    "drugs_developed": ["Isoniazid", "Rifampin", "Pyrazinamide"]
+  },
+  {
+    "disease_name": "Cholera",
+    "other_names": [
+      "Vibrio Cholerae Infection"
+    ],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGAAAAAACATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCA...",
+    "protein_sequence": "MKKHHHHHHHHHHHHHHHH...",
+    "drugs_developed": ["Tetracycline", "Doxycycline", "Ciprofloxacin"]
+  },
+  {
+    "disease_name": "Lyme Disease",
+    "other_names": [
+      "Borrelia Burgdorferi Infection"
+    ],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGAAAAAACATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCA...",
+    "protein_sequence": "MKKHHHHHHHHHHHHHHHH...",
+    "drugs_developed": ["Doxycycline", "Amoxicillin", "Cefuroxime"]
+  },
+  {
+    "disease_name": "Ebola",
+    "other_names": [
+      "Ebola Virus Disease",
+      "EVD"
+    ],
+    "disease_type": "viral",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Remdesivir", "ZMapp", "Ervebo"]
+  },
+  {
+    "disease_name": "Zika Virus",
+    "other_names": [
+      "Zika Fever"
+    ],
+    "disease_type": "viral",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": []
+  },
+  {
+    "disease_name": "Dengue Fever",
+    "other_names": [
+      "Breakbone Fever"
+    ],
+    "disease_type": "viral",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": []
+  },
+  {
+    "disease_name": "Hepatitis B",
+    "other_names": [
+      "HBV"
+    ],
+    "disease_type": "viral",
+    "dna_sequence": "ATGGAGAACATCACGATCAGGATTCCTAGGACCCCTGCTCGTGTTACAGGCGGGGTTTTT...",
+    "protein_sequence": "MENITIRIPRTPARVTGGVF...",
+    "drugs_developed": ["Tenofovir", "Entecavir", "Lamivudine"]
+  },
+  {
+    "disease_name": "Hepatitis C",
+    "other_names": [
+      "HCV"
+    ],
+    "disease_type": "viral",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Sofosbuvir", "Ledipasvir", "Daclatasvir"]
+  },
+  {
+    "disease_name": "Rabies",
+    "other_names": [
+      "Hydrophobia"
+    ],
+    "disease_type": "viral",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": []
+  },
+  {
+    "disease_name": "Measles",
+    "other_names": [
+      "Rubeola"
+    ],
+    "disease_type": "viral",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": []
+  },
+  {
+    "disease_name": "Polio",
+    "other_names": [
+      "Poliomyelitis"
+    ],
+    "disease_type": "viral",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": []
+  },
+  {
+    "disease_name": "Smallpox",
+    "other_names": [
+      "Variola"
+    ],
+    "disease_type": "viral",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": []
+  },
+  {
+    "disease_name": "Yellow Fever",
+    "other_names": [],
+    "disease_type": "viral",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": []
+  },
+  {
+    "disease_name": "Typhoid Fever",
+    "other_names": [
+      "Enteric Fever"
+    ],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Ciprofloxacin", "Azithromycin", "Ceftriaxone"]
+  },
+  {
+    "disease_name": "Leptospirosis",
+    "other_names": [
+      "Weil's Disease"
+    ],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Doxycycline", "Penicillin", "Ceftriaxone"]
+  },
+  {
+    "disease_name": "Leprosy",
+    "other_names": [
+      "Hansen's Disease"
+    ],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Dapsone", "Rifampin", "Clofazimine"]
+  },
+  {
+    "disease_name": "Anthrax",
+    "other_names": [],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Ciprofloxacin", "Doxycycline", "Penicillin"]
+  },
+  {
+    "disease_name": "Botulism",
+    "other_names": [],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Antitoxin", "Antibiotics"]
+  },
+  {
+    "disease_name": "Plague",
+    "other_names": [
+      "Black Death"
+    ],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Streptomycin", "Doxycycline", "Gentamicin"]
+  },
+  {
+    "disease_name": "Toxoplasmosis",
+    "other_names": [],
+    "disease_type": "parasitic",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Pyrimethamine", "Sulfadiazine", "Clindamycin"]
+  },
+  {
+    "disease_name": "West Nile Virus",
+    "other_names": [],
+    "disease_type": "viral",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": []
+  },
+  {
+    "disease_name": "Norovirus",
+    "other_names": [
+      "Winter Vomiting Bug"
+    ],
+    "disease_type": "viral",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": []
+  },
+  {
+    "disease_name": "Rotavirus",
+    "other_names": [],
+    "disease_type": "viral",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": []
+  },
+  {
+    "disease_name": "Whooping Cough",
+    "other_names": [
+      "Pertussis"
+    ],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Azithromycin", "Erythromycin", "Clarithromycin"]
+  },
+  {
+    "disease_name": "Tetanus",
+    "other_names": [
+      "Lockjaw"
+    ],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Tetanus Immune Globulin", "Antibiotics"]
+  },
+  {
+    "disease_name": "Diphtheria",
+    "other_names": [],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Diphtheria Antitoxin", "Antibiotics"]
+  },
+  {
+    "disease_name": "Syphilis",
+    "other_names": [],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Penicillin", "Doxycycline", "Tetracycline"]
+  },
+  {
+    "disease_name": "Gonorrhea",
+    "other_names": [
+      "The Clap"
+    ],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Ceftriaxone", "Azithromycin", "Doxycycline"]
+  },
+  {
+    "disease_name": "Chlamydia",
+    "other_names": [],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Azithromycin", "Doxycycline", "Erythromycin"]
+  },
+  {
+    "disease_name": "Herpes Simplex",
+    "other_names": [
+      "HSV"
+    ],
+    "disease_type": "viral",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Acyclovir", "Valacyclovir", "Famciclovir"]
+  },
+  {
+    "disease_name": "HPV",
+    "other_names": [
+      "Human Papillomavirus"
+    ],
+    "disease_type": "viral",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Gardasil", "Cervarix"]
+  },
+  {
+    "disease_name": "Hantavirus",
+    "other_names": [],
+    "disease_type": "viral",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": []
+  },
+  {
+    "disease_name": "Legionnaires' Disease",
+    "other_names": [
+      "Legionellosis"
+    ],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Azithromycin", "Levofloxacin", "Ciprofloxacin"]
+  },
+  {
+    "disease_name": "Listeriosis",
+    "other_names": [],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Ampicillin", "Trimethoprim-Sulfamethoxazole"]
+  },
+  {
+    "disease_name": "Salmonellosis",
+    "other_names": [
+      "Salmonella Infection"
+    ],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Ciprofloxacin", "Azithromycin", "Ceftriaxone"]
+  },
+  {
+    "disease_name": "Shigellosis",
+    "other_names": [
+      "Shigella Infection"
+    ],
+    "disease_type": "bacterial",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Ciprofloxacin", "Azithromycin", "Ceftriaxone"]
+  },
+  {
+    "disease_name": "Cryptosporidiosis",
+    "other_names": [],
+    "disease_type": "parasitic",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Nitazoxanide"]
+  },
+  {
+    "disease_name": "Giardiasis",
+    "other_names": [],
+    "disease_type": "parasitic",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Metronidazole", "Tinidazole", "Nitazoxanide"]
+  },
+  {
+    "disease_name": "Trichomoniasis",
+    "other_names": [],
+    "disease_type": "parasitic",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Metronidazole", "Tinidazole"]
+  },
+  {
+    "disease_name": "Scabies",
+    "other_names": [],
+    "disease_type": "parasitic",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Permethrin", "Ivermectin"]
+  },
+  {
+    "disease_name": "Ringworm",
+    "other_names": [
+      "Tinea"
+    ],
+    "disease_type": "fungi",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Clotrimazole", "Terbinafine", "Miconazole"]
+  },
+  {
+    "disease_name": "Athlete's Foot",
+    "other_names": [
+      "Tinea Pedis"
+    ],
+    "disease_type": "fungi",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Clotrimazole", "Terbinafine", "Miconazole"]
+  },
+  {
+    "disease_name": "Jock Itch",
+    "other_names": [
+      "Tinea Cruris"
+    ],
+    "disease_type": "fungi",
+    "dna_sequence": "ATGGGTGCGAGAGCGTCAGTATTAAGCGGGGGAGAATTAGATAAATGGGAAAAAATTCGG...",
+    "protein_sequence": "MGARASVLSGGELDKWEKIR...",
+    "drugs_developed": ["Clotrimazole", "Terbinafine", "Miconazole"]
+  },
+  {
+    "disease_name": "Epilepsy",
+    "other_names": [
+      "Seizure Disorder",
+      "Epileptic Syndrome"
+    ],
+    "disease_type": "neurological",
+    "dna_sequence": "ATGCGTACCTGAGGCTTACGGCATGACCTGGAGTACGTTGACCAGTGCAGGTCAGGATG...",
+    "protein_sequence": "MRT*EAYGM*LRYVDQCRVQM...",
+    "drugs_developed": ["Carbamazepine", "Valproate", "Lamotrigine", "Levetiracetam"]
+  },
+  {
+    "disease_name": "Arthritis",
+    "other_names": [
+      "Joint Inflammation",
+      "Osteoarthritis",
+      "Rheumatoid Arthritis"
+    ],
+    "disease_type": "autoimmune/inflammatory",
+    "dna_sequence": "AGCTTAGGCTAAGGCTTAGGCTAAGGCTTAGGCTAAGGCTTAGGCTAAGGCTTAGGCTA...",
+    "protein_sequence": "MSTGQLRLLVLFLVTLGLLSTHLRPPGPPGPPGPPGPPGPQGPPGPAGPAG...",
+    "drugs_developed": ["Aspirin", "Ibuprofen", "Methotrexate", "Adalimumab"]
+  }
+]
